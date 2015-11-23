@@ -6,6 +6,7 @@ Fuck off constants.js and golobal constants in react/flux/redux/wateva.
 * Namespaced constants, never worry about conflict with other component in your project.
 * 2.2KB minified, extreme slim.
 
+[![npm version](https://img.shields.io/npm/v/react-constant.svg?style=flat-square)](https://www.npmjs.com/package/react-constant)
 ## Usage
 
 ### Install 
