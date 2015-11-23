@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Fuck off constants.js and golobal constants in react/flux/redux/wateva.",
   "main": "lib/index.js",
-  "jsnext:main": "src/index.js",
   "files": [
     "dist",
     "lib",
