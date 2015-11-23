@@ -1,11 +1,14 @@
 import {Constant} from '../src/index';
 import should from 'should';
-console.log(Constant)
 describe('Constant', () => {
   let constants1, constants2;
   before(() => {
     constants1 = Constant('namespace1');
     constants2 = Constant('namespace2');
+  })
+  it('same namespace with same key should have same value', () => {
+    let frokConstant = Constant('namespace1');
+    should.equal(constants1.of('randomString'), frokConstant.of('randomString'))
   })
   it('different namespace with same key should have various values', () => {
     should.notEqual(constants1.of('randomString'),constants2.of('randomString'))

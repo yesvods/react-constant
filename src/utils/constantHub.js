@@ -11,7 +11,7 @@ export default function constantsHub(){
     }
     let constants = hub[namespace];
     if(typeof constants === 'undefined') {
-      constants = new Constants();
+      hub[namespace] = constants = new Constants();
     }
     return constants;
   }
