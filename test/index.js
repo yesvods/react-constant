@@ -1,6 +1,6 @@
-import Constant from '../src/';
+import {Constant} from '../src/index';
 import should from 'should';
-
+console.log(Constant)
 describe('Constant', () => {
   let constants1, constants2;
   before(() => {

@@ -1,3 +1,5 @@
 import constantsHub from './utils/constantHub';
-
-export default new constantsHub();
+let Constant = new constantsHub();
+export {
+  Constant,
+}
