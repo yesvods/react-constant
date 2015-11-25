@@ -5,6 +5,9 @@ import uuidGenerator from './uuidGenerator';
 * if constant exist just return it
 */
 export default class Constants {
+  constructor(namespace){
+    this.namespace = namespace;
+  }
   of(key){
     if(typeof key !== 'string') {
       throw new Error(`Expect key of constants to be string, but accept type ${typeof key}`)
@@ -12,7 +15,7 @@ export default class Constants {
     if(typeof this[key] !== 'undefined') {
       return this[key];
     }
-    this[key] = uuidGenerator();
+    this[key] = `${this.namespace}-${key}-${uuidGenerator()}`;
     return this[key];
   }
 }
