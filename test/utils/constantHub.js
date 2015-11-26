@@ -13,6 +13,13 @@ describe('constantsHub', () => {
     let c2 = ns2.of('key');
     should.equal(c1, c2)
   })
+  it('constant should start width namespace-key', () => {
+    let ns = hub('namespace');
+    let c1 = ns.of('key1');
+    should(c1).startWith('namespace-key1')
+    let c2 = ns.of('key2');
+    should(c2).startWith('namespace-key2')
+  })
   after(() => {
     hub = null;
   })
