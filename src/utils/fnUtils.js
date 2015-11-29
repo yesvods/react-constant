@@ -16,7 +16,7 @@ export function randomBase64(...arg){
                       .slice(start, end);
   }else if('undefined' !==typeof btoa){
     codedString = btoa(Math.random())
-                  .replace('=')
+                  .replace(/\=/g,'')
                   .slice(start, end);
   }else{
     codedString = '';

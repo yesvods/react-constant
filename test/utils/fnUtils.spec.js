@@ -5,7 +5,7 @@ describe('fnUtils', () => {
   it('get different value in every invoke', () => {
     let tmp = [];
     const base64Encoded = randomBase64();
-    for(let i=0; i<10;i++){
+    for(let i=0; i<1000;i++){
       tmp.push(randomBase64())
     }
     let index = tmp.indexOf(base64Encoded);
