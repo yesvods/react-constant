@@ -1,0 +1,224 @@
+[36m29 11 2015 16:31:08.633:DEBUG [config]: [39mautoWatch set to false, because of singleRun
+[36m29 11 2015 16:31:08.637:DEBUG [plugin]: [39mLoading karma-* from /Users/zen/myproject/rc-constants/node_modules
+[36m29 11 2015 16:31:08.638:DEBUG [plugin]: [39mLoading plugin /Users/zen/myproject/rc-constants/node_modules/karma-mocha.
+[36m29 11 2015 16:31:08.639:DEBUG [plugin]: [39mLoading plugin /Users/zen/myproject/rc-constants/node_modules/karma-phantomjs-launcher.
+[36m29 11 2015 16:31:08.642:DEBUG [plugin]: [39mLoading plugin /Users/zen/myproject/rc-constants/node_modules/karma-phantomjs-shim.
+[36m29 11 2015 16:31:08.644:DEBUG [plugin]: [39mLoading plugin /Users/zen/myproject/rc-constants/node_modules/karma-webpack.
+Hash: a50a9a5a5dd6c46b6dd9
+Version: webpack 1.12.9
+Time: 17ms
+webpack: bundle is now VALID.
+webpack: bundle is now INVALID.
+Hash: 44b383a73cd89c1bf771
+Version: webpack 1.12.9
+Time: 364ms
+                           Asset    Size  Chunks             Chunk Names
+                   test/index.js  163 kB       0  [emitted]  test/index.js
+    test/utils/Constants.spec.js  161 kB       1  [emitted]  test/utils/Constants.spec.js
+  test/utils/constantHub.spec.js  162 kB       2  [emitted]  test/utils/constantHub.spec.js
+      test/utils/fnUtils.spec.js  158 kB       3  [emitted]  test/utils/fnUtils.spec.js
+test/utils/uuidGenerator.spec.js  158 kB       4  [emitted]  test/utils/uuidGenerator.spec.js
+chunk    {0} test/index.js (test/index.js) 154 kB
+    [0] ./test/index.js 1.28 kB {0} [built]
+    [1] ./src/index.js 392 bytes {0} [built]
+    [2] ./src/utils/constantHub.js 1.01 kB {0} {2} [built]
+    [3] ./src/utils/Constants.js 1.88 kB {0} {1} {2} [built]
+    [4] ./src/utils/uuidGenerator.js 416 bytes {0} {1} {2} {4} [built]
+    [5] ./~/should/index.js 308 bytes {0} {1} {2} {3} {4} [built]
+    [6] ./~/should/lib/should.js 4.37 kB {0} {1} {2} {3} {4} [built]
+    [7] ./~/should/lib/util.js 3.24 kB {0} {1} {2} {3} {4} [built]
+    [8] ./~/should-type/index.js 4.79 kB {0} {1} {2} {3} {4} [built]
+    [9] ./~/buffer/index.js 42.7 kB {0} {1} {2} {3} {4} [built]
+   [10] ./~/base64-js/lib/b64.js 3.57 kB {0} {1} {2} {3} {4} [built]
+   [11] ./~/ieee754/index.js 2.05 kB {0} {1} {2} {3} {4} [built]
+   [12] ./~/is-array/index.js 470 bytes {0} {1} {2} {3} {4} [built]
+   [13] ./~/should-type/types.js 799 bytes {0} {1} {2} {3} {4} [built]
+   [14] ./~/should/lib/config.js 201 bytes {0} {1} {2} {3} {4} [built]
+   [15] ./~/should-format/index.js 12.9 kB {0} {1} {2} {3} {4} [built]
+   [16] ./~/should-format/util.js 548 bytes {0} {1} {2} {3} {4} [built]
+   [17] ./~/should/lib/assertion-error.js 2.21 kB {0} {1} {2} {3} {4} [built]
+   [18] ./~/should/lib/assertion.js 5.51 kB {0} {1} {2} {3} {4} [built]
+   [19] ./~/should/lib/ext/assert.js 1.58 kB {0} {1} {2} {3} {4} [built]
+   [20] ./~/should/lib/ext/_assert.js 9.18 kB {0} {1} {2} {3} {4} [built]
+   [21] ./~/should-equal/index.js 9.51 kB {0} {1} {2} {3} {4} [built]
+   [22] ./~/should-equal/format.js 177 bytes {0} {1} {2} {3} {4} [built]
+   [23] ./~/should/lib/ext/chain.js 652 bytes {0} {1} {2} {3} {4} [built]
+   [24] ./~/should/lib/ext/bool.js 1.37 kB {0} {1} {2} {3} {4} [built]
+   [25] ./~/should/lib/ext/number.js 4.27 kB {0} {1} {2} {3} {4} [built]
+   [26] ./~/should/lib/ext/eql.js 3.62 kB {0} {1} {2} {3} {4} [built]
+   [27] ./~/should/lib/ext/type.js 5.44 kB {0} {1} {2} {3} {4} [built]
+   [28] ./~/should/lib/ext/string.js 1.12 kB {0} {1} {2} {3} {4} [built]
+   [29] ./~/should/lib/ext/property.js 11.4 kB {0} {1} {2} {3} {4} [built]
+   [30] ./~/should/lib/ext/error.js 3.26 kB {0} {1} {2} {3} {4} [built]
+   [31] ./~/should/lib/ext/match.js 7.91 kB {0} {1} {2} {3} {4} [built]
+   [32] ./~/should/lib/ext/contain.js 5.5 kB {0} {1} {2} {3} {4} [built]
+chunk    {1} test/utils/Constants.spec.js (test/utils/Constants.spec.js) 152 kB [rendered]
+    [0] ./test/utils/Constants.spec.js 948 bytes {1} [built]
+    [3] ./src/utils/Constants.js 1.88 kB {0} {1} {2} [built]
+    [4] ./src/utils/uuidGenerator.js 416 bytes {0} {1} {2} {4} [built]
+    [5] ./~/should/index.js 308 bytes {0} {1} {2} {3} {4} [built]
+    [6] ./~/should/lib/should.js 4.37 kB {0} {1} {2} {3} {4} [built]
+    [7] ./~/should/lib/util.js 3.24 kB {0} {1} {2} {3} {4} [built]
+    [8] ./~/should-type/index.js 4.79 kB {0} {1} {2} {3} {4} [built]
+    [9] ./~/buffer/index.js 42.7 kB {0} {1} {2} {3} {4} [built]
+   [10] ./~/base64-js/lib/b64.js 3.57 kB {0} {1} {2} {3} {4} [built]
+   [11] ./~/ieee754/index.js 2.05 kB {0} {1} {2} {3} {4} [built]
+   [12] ./~/is-array/index.js 470 bytes {0} {1} {2} {3} {4} [built]
+   [13] ./~/should-type/types.js 799 bytes {0} {1} {2} {3} {4} [built]
+   [14] ./~/should/lib/config.js 201 bytes {0} {1} {2} {3} {4} [built]
+   [15] ./~/should-format/index.js 12.9 kB {0} {1} {2} {3} {4} [built]
+   [16] ./~/should-format/util.js 548 bytes {0} {1} {2} {3} {4} [built]
+   [17] ./~/should/lib/assertion-error.js 2.21 kB {0} {1} {2} {3} {4} [built]
+   [18] ./~/should/lib/assertion.js 5.51 kB {0} {1} {2} {3} {4} [built]
+   [19] ./~/should/lib/ext/assert.js 1.58 kB {0} {1} {2} {3} {4} [built]
+   [20] ./~/should/lib/ext/_assert.js 9.18 kB {0} {1} {2} {3} {4} [built]
+   [21] ./~/should-equal/index.js 9.51 kB {0} {1} {2} {3} {4} [built]
+   [22] ./~/should-equal/format.js 177 bytes {0} {1} {2} {3} {4} [built]
+   [23] ./~/should/lib/ext/chain.js 652 bytes {0} {1} {2} {3} {4} [built]
+   [24] ./~/should/lib/ext/bool.js 1.37 kB {0} {1} {2} {3} {4} [built]
+   [25] ./~/should/lib/ext/number.js 4.27 kB {0} {1} {2} {3} {4} [built]
+   [26] ./~/should/lib/ext/eql.js 3.62 kB {0} {1} {2} {3} {4} [built]
+   [27] ./~/should/lib/ext/type.js 5.44 kB {0} {1} {2} {3} {4} [built]
+   [28] ./~/should/lib/ext/string.js 1.12 kB {0} {1} {2} {3} {4} [built]
+   [29] ./~/should/lib/ext/property.js 11.4 kB {0} {1} {2} {3} {4} [built]
+   [30] ./~/should/lib/ext/error.js 3.26 kB {0} {1} {2} {3} {4} [built]
+   [31] ./~/should/lib/ext/match.js 7.91 kB {0} {1} {2} {3} {4} [built]
+   [32] ./~/should/lib/ext/contain.js 5.5 kB {0} {1} {2} {3} {4} [built]
+chunk    {2} test/utils/constantHub.spec.js (test/utils/constantHub.spec.js) 153 kB [rendered]
+    [0] ./test/utils/constantHub.spec.js 997 bytes {2} [built]
+    [2] ./src/utils/constantHub.js 1.01 kB {0} {2} [built]
+    [3] ./src/utils/Constants.js 1.88 kB {0} {1} {2} [built]
+    [4] ./src/utils/uuidGenerator.js 416 bytes {0} {1} {2} {4} [built]
+    [5] ./~/should/index.js 308 bytes {0} {1} {2} {3} {4} [built]
+    [6] ./~/should/lib/should.js 4.37 kB {0} {1} {2} {3} {4} [built]
+    [7] ./~/should/lib/util.js 3.24 kB {0} {1} {2} {3} {4} [built]
+    [8] ./~/should-type/index.js 4.79 kB {0} {1} {2} {3} {4} [built]
+    [9] ./~/buffer/index.js 42.7 kB {0} {1} {2} {3} {4} [built]
+   [10] ./~/base64-js/lib/b64.js 3.57 kB {0} {1} {2} {3} {4} [built]
+   [11] ./~/ieee754/index.js 2.05 kB {0} {1} {2} {3} {4} [built]
+   [12] ./~/is-array/index.js 470 bytes {0} {1} {2} {3} {4} [built]
+   [13] ./~/should-type/types.js 799 bytes {0} {1} {2} {3} {4} [built]
+   [14] ./~/should/lib/config.js 201 bytes {0} {1} {2} {3} {4} [built]
+   [15] ./~/should-format/index.js 12.9 kB {0} {1} {2} {3} {4} [built]
+   [16] ./~/should-format/util.js 548 bytes {0} {1} {2} {3} {4} [built]
+   [17] ./~/should/lib/assertion-error.js 2.21 kB {0} {1} {2} {3} {4} [built]
+   [18] ./~/should/lib/assertion.js 5.51 kB {0} {1} {2} {3} {4} [built]
+   [19] ./~/should/lib/ext/assert.js 1.58 kB {0} {1} {2} {3} {4} [built]
+   [20] ./~/should/lib/ext/_assert.js 9.18 kB {0} {1} {2} {3} {4} [built]
+   [21] ./~/should-equal/index.js 9.51 kB {0} {1} {2} {3} {4} [built]
+   [22] ./~/should-equal/format.js 177 bytes {0} {1} {2} {3} {4} [built]
+   [23] ./~/should/lib/ext/chain.js 652 bytes {0} {1} {2} {3} {4} [built]
+   [24] ./~/should/lib/ext/bool.js 1.37 kB {0} {1} {2} {3} {4} [built]
+   [25] ./~/should/lib/ext/number.js 4.27 kB {0} {1} {2} {3} {4} [built]
+   [26] ./~/should/lib/ext/eql.js 3.62 kB {0} {1} {2} {3} {4} [built]
+   [27] ./~/should/lib/ext/type.js 5.44 kB {0} {1} {2} {3} {4} [built]
+   [28] ./~/should/lib/ext/string.js 1.12 kB {0} {1} {2} {3} {4} [built]
+   [29] ./~/should/lib/ext/property.js 11.4 kB {0} {1} {2} {3} {4} [built]
+   [30] ./~/should/lib/ext/error.js 3.26 kB {0} {1} {2} {3} {4} [built]
+   [31] ./~/should/lib/ext/match.js 7.91 kB {0} {1} {2} {3} {4} [built]
+   [32] ./~/should/lib/ext/contain.js 5.5 kB {0} {1} {2} {3} {4} [built]
+chunk    {3} test/utils/fnUtils.spec.js (test/utils/fnUtils.spec.js) 150 kB [rendered]
+    [0] ./test/utils/fnUtils.spec.js 570 bytes {3} [built]
+    [5] ./~/should/index.js 308 bytes {0} {1} {2} {3} {4} [built]
+    [6] ./~/should/lib/should.js 4.37 kB {0} {1} {2} {3} {4} [built]
+    [7] ./~/should/lib/util.js 3.24 kB {0} {1} {2} {3} {4} [built]
+    [8] ./~/should-type/index.js 4.79 kB {0} {1} {2} {3} {4} [built]
+    [9] ./~/buffer/index.js 42.7 kB {0} {1} {2} {3} {4} [built]
+   [10] ./~/base64-js/lib/b64.js 3.57 kB {0} {1} {2} {3} {4} [built]
+   [11] ./~/ieee754/index.js 2.05 kB {0} {1} {2} {3} {4} [built]
+   [12] ./~/is-array/index.js 470 bytes {0} {1} {2} {3} {4} [built]
+   [13] ./~/should-type/types.js 799 bytes {0} {1} {2} {3} {4} [built]
+   [14] ./~/should/lib/config.js 201 bytes {0} {1} {2} {3} {4} [built]
+   [15] ./~/should-format/index.js 12.9 kB {0} {1} {2} {3} {4} [built]
+   [16] ./~/should-format/util.js 548 bytes {0} {1} {2} {3} {4} [built]
+   [17] ./~/should/lib/assertion-error.js 2.21 kB {0} {1} {2} {3} {4} [built]
+   [18] ./~/should/lib/assertion.js 5.51 kB {0} {1} {2} {3} {4} [built]
+   [19] ./~/should/lib/ext/assert.js 1.58 kB {0} {1} {2} {3} {4} [built]
+   [20] ./~/should/lib/ext/_assert.js 9.18 kB {0} {1} {2} {3} {4} [built]
+   [21] ./~/should-equal/index.js 9.51 kB {0} {1} {2} {3} {4} [built]
+   [22] ./~/should-equal/format.js 177 bytes {0} {1} {2} {3} {4} [built]
+   [23] ./~/should/lib/ext/chain.js 652 bytes {0} {1} {2} {3} {4} [built]
+   [24] ./~/should/lib/ext/bool.js 1.37 kB {0} {1} {2} {3} {4} [built]
+   [25] ./~/should/lib/ext/number.js 4.27 kB {0} {1} {2} {3} {4} [built]
+   [26] ./~/should/lib/ext/eql.js 3.62 kB {0} {1} {2} {3} {4} [built]
+   [27] ./~/should/lib/ext/type.js 5.44 kB {0} {1} {2} {3} {4} [built]
+   [28] ./~/should/lib/ext/string.js 1.12 kB {0} {1} {2} {3} {4} [built]
+   [29] ./~/should/lib/ext/property.js 11.4 kB {0} {1} {2} {3} {4} [built]
+   [30] ./~/should/lib/ext/error.js 3.26 kB {0} {1} {2} {3} {4} [built]
+   [31] ./~/should/lib/ext/match.js 7.91 kB {0} {1} {2} {3} {4} [built]
+   [32] ./~/should/lib/ext/contain.js 5.5 kB {0} {1} {2} {3} {4} [built]
+   [33] ./src/utils/fnUtils.js 530 bytes {3} [built]
+chunk    {4} test/utils/uuidGenerator.spec.js (test/utils/uuidGenerator.spec.js) 150 kB [rendered]
+    [0] ./test/utils/uuidGenerator.spec.js 666 bytes {4} [built]
+    [4] ./src/utils/uuidGenerator.js 416 bytes {0} {1} {2} {4} [built]
+    [5] ./~/should/index.js 308 bytes {0} {1} {2} {3} {4} [built]
+    [6] ./~/should/lib/should.js 4.37 kB {0} {1} {2} {3} {4} [built]
+    [7] ./~/should/lib/util.js 3.24 kB {0} {1} {2} {3} {4} [built]
+    [8] ./~/should-type/index.js 4.79 kB {0} {1} {2} {3} {4} [built]
+    [9] ./~/buffer/index.js 42.7 kB {0} {1} {2} {3} {4} [built]
+   [10] ./~/base64-js/lib/b64.js 3.57 kB {0} {1} {2} {3} {4} [built]
+   [11] ./~/ieee754/index.js 2.05 kB {0} {1} {2} {3} {4} [built]
+   [12] ./~/is-array/index.js 470 bytes {0} {1} {2} {3} {4} [built]
+   [13] ./~/should-type/types.js 799 bytes {0} {1} {2} {3} {4} [built]
+   [14] ./~/should/lib/config.js 201 bytes {0} {1} {2} {3} {4} [built]
+   [15] ./~/should-format/index.js 12.9 kB {0} {1} {2} {3} {4} [built]
+   [16] ./~/should-format/util.js 548 bytes {0} {1} {2} {3} {4} [built]
+   [17] ./~/should/lib/assertion-error.js 2.21 kB {0} {1} {2} {3} {4} [built]
+   [18] ./~/should/lib/assertion.js 5.51 kB {0} {1} {2} {3} {4} [built]
+   [19] ./~/should/lib/ext/assert.js 1.58 kB {0} {1} {2} {3} {4} [built]
+   [20] ./~/should/lib/ext/_assert.js 9.18 kB {0} {1} {2} {3} {4} [built]
+   [21] ./~/should-equal/index.js 9.51 kB {0} {1} {2} {3} {4} [built]
+   [22] ./~/should-equal/format.js 177 bytes {0} {1} {2} {3} {4} [built]
+   [23] ./~/should/lib/ext/chain.js 652 bytes {0} {1} {2} {3} {4} [built]
+   [24] ./~/should/lib/ext/bool.js 1.37 kB {0} {1} {2} {3} {4} [built]
+   [25] ./~/should/lib/ext/number.js 4.27 kB {0} {1} {2} {3} {4} [built]
+   [26] ./~/should/lib/ext/eql.js 3.62 kB {0} {1} {2} {3} {4} [built]
+   [27] ./~/should/lib/ext/type.js 5.44 kB {0} {1} {2} {3} {4} [built]
+   [28] ./~/should/lib/ext/string.js 1.12 kB {0} {1} {2} {3} {4} [built]
+   [29] ./~/should/lib/ext/property.js 11.4 kB {0} {1} {2} {3} {4} [built]
+   [30] ./~/should/lib/ext/error.js 3.26 kB {0} {1} {2} {3} {4} [built]
+   [31] ./~/should/lib/ext/match.js 7.91 kB {0} {1} {2} {3} {4} [built]
+   [32] ./~/should/lib/ext/contain.js 5.5 kB {0} {1} {2} {3} {4} [built]
+webpack: bundle is now VALID.
+[32m29 11 2015 16:31:10.123:INFO [karma]: [39mKarma v0.13.15 server started at http://localhost:9876/
+[32m29 11 2015 16:31:10.129:INFO [launcher]: [39mStarting browser PhantomJS
+[36m29 11 2015 16:31:10.129:DEBUG [temp-dir]: [39mCreating temp dir at /var/folders/cw/wvn02_391xz_lqxg6xvv74mm0000gn/T/karma-8860647
+[36m29 11 2015 16:31:10.139:DEBUG [launcher]: [39m/Users/zen/myproject/rc-constants/node_modules/phantomjs/lib/phantom/bin/phantomjs /var/folders/cw/wvn02_391xz_lqxg6xvv74mm0000gn/T/karma-8860647/capture.js
+[36m29 11 2015 16:31:11.564:DEBUG [web-server]: [39mserving: /Users/zen/myproject/rc-constants/node_modules/karma/static/client.html
+[36m29 11 2015 16:31:11.579:DEBUG [web-server]: [39mserving: /Users/zen/myproject/rc-constants/node_modules/karma/static/karma.js
+[36m29 11 2015 16:31:11.613:DEBUG [karma]: [39mA browser has connected on socket _m2Mj5YB1bUFBsyiAAAA
+[36m29 11 2015 16:31:11.616:DEBUG [web-server]: [39mupgrade /socket.io/?EIO=3&transport=websocket&sid=_m2Mj5YB1bUFBsyiAAAA
+[32m29 11 2015 16:31:11.638:INFO [PhantomJS 1.9.8 (Mac OS X 0.0.0)]: [39mConnected on socket _m2Mj5YB1bUFBsyiAAAA with id 8860647
+[36m29 11 2015 16:31:11.638:DEBUG [launcher]: [39mPhantomJS (id 8860647) captured in 1.514 secs
+[36m29 11 2015 16:31:11.649:DEBUG [web-server]: [39mserving: /Users/zen/myproject/rc-constants/node_modules/karma/static/context.html
+[36m29 11 2015 16:31:11.651:DEBUG [middlware:source-files]: [39mRequesting /base/node_modules/karma-phantomjs-shim/shim.js?f2a979cfc3e9ee1729b2e78daef5f16044098f71 /
+[36m29 11 2015 16:31:11.651:DEBUG [middlware:source-files]: [39mFetching /Users/zen/myproject/rc-constants/node_modules/karma-phantomjs-shim/shim.js
+[36m29 11 2015 16:31:11.653:DEBUG [web-server]: [39mserving (cached): /Users/zen/myproject/rc-constants/node_modules/karma-phantomjs-shim/shim.js
+[36m29 11 2015 16:31:11.654:DEBUG [middlware:source-files]: [39mRequesting /base/node_modules/mocha/mocha.js?e2869adc1f343c52a99a2c23eaa29bb493769d13 /
+[36m29 11 2015 16:31:11.654:DEBUG [middlware:source-files]: [39mFetching /Users/zen/myproject/rc-constants/node_modules/mocha/mocha.js
+[36m29 11 2015 16:31:11.655:DEBUG [web-server]: [39mserving (cached): /Users/zen/myproject/rc-constants/node_modules/mocha/mocha.js
+[36m29 11 2015 16:31:11.658:DEBUG [middlware:source-files]: [39mRequesting /base/test/utils/fnUtils.spec.js?ff7ece7c4078e9175589ce24d7790eb5407e0293 /
+[36m29 11 2015 16:31:11.658:DEBUG [middlware:source-files]: [39mFetching /Users/zen/myproject/rc-constants/test/utils/fnUtils.spec.js
+[36m29 11 2015 16:31:11.658:DEBUG [middlware:source-files]: [39mRequesting /base/test/utils/Constants.spec.js?8531aaa16e15ae4175e81209a169b18e454e6336 /
+[36m29 11 2015 16:31:11.658:DEBUG [middlware:source-files]: [39mFetching /Users/zen/myproject/rc-constants/test/utils/Constants.spec.js
+[36m29 11 2015 16:31:11.659:DEBUG [middlware:source-files]: [39mRequesting /base/node_modules/karma-mocha/lib/adapter.js?a1b1a8cd39d66dafcbb40ce05cf5fd3f213d5f34 /
+[36m29 11 2015 16:31:11.659:DEBUG [middlware:source-files]: [39mFetching /Users/zen/myproject/rc-constants/node_modules/karma-mocha/lib/adapter.js
+[36m29 11 2015 16:31:11.659:DEBUG [middlware:source-files]: [39mRequesting /base/test/index.js?219cc198550e06b1848169c4a92f0bce7a3fce5a /
+[36m29 11 2015 16:31:11.659:DEBUG [middlware:source-files]: [39mFetching /Users/zen/myproject/rc-constants/test/index.js
+[36m29 11 2015 16:31:11.659:DEBUG [middlware:source-files]: [39mRequesting /base/test/utils/constantHub.spec.js?14128fa36381786738382610a28f9b26f8193371 /
+[36m29 11 2015 16:31:11.659:DEBUG [middlware:source-files]: [39mFetching /Users/zen/myproject/rc-constants/test/utils/constantHub.spec.js
+[36m29 11 2015 16:31:11.660:DEBUG [web-server]: [39mserving (cached): /Users/zen/myproject/rc-constants/test/utils/fnUtils.spec.js
+[36m29 11 2015 16:31:11.662:DEBUG [web-server]: [39mserving (cached): /Users/zen/myproject/rc-constants/test/utils/Constants.spec.js
+[36m29 11 2015 16:31:11.664:DEBUG [web-server]: [39mserving (cached): /Users/zen/myproject/rc-constants/node_modules/karma-mocha/lib/adapter.js
+[36m29 11 2015 16:31:11.664:DEBUG [web-server]: [39mserving (cached): /Users/zen/myproject/rc-constants/test/index.js
+[36m29 11 2015 16:31:11.666:DEBUG [web-server]: [39mserving (cached): /Users/zen/myproject/rc-constants/test/utils/constantHub.spec.js
+[36m29 11 2015 16:31:11.669:DEBUG [middlware:source-files]: [39mRequesting /base/test/utils/uuidGenerator.spec.js?ed701ce40f8727b8cc0f9f924ea704a82d158da1 /
+[36m29 11 2015 16:31:11.669:DEBUG [middlware:source-files]: [39mFetching /Users/zen/myproject/rc-constants/test/utils/uuidGenerator.spec.js
+[36m29 11 2015 16:31:11.669:DEBUG [web-server]: [39mserving (cached): /Users/zen/myproject/rc-constants/test/utils/uuidGenerator.spec.js
+.........
+PhantomJS 1.9.8 (Mac OS X 0.0.0): Executed 9 of 9 SUCCESS (0.023 secs / 0.015 secs)
+[36m29 11 2015 16:31:11.750:DEBUG [karma]: [39mRun complete, exiting.
+[36m29 11 2015 16:31:11.751:DEBUG [launcher]: [39mDisconnecting all browsers
+[36m29 11 2015 16:31:11.766:DEBUG [launcher]: [39mProcess PhantomJS exited with code 0
+[36m29 11 2015 16:31:11.766:DEBUG [temp-dir]: [39mCleaning temp dir /var/folders/cw/wvn02_391xz_lqxg6xvv74mm0000gn/T/karma-8860647
+[36m29 11 2015 16:31:11.773:DEBUG [launcher]: [39mFinished all browsers

@@ -1,4 +1,4 @@
-import uuidGenerator from './uuidGenerator';
+import {randomBase64} from './fnUtils';
 
 /**
 * generate and return a constant
@@ -15,7 +15,7 @@ export default class Constants {
     if(typeof this[key] !== 'undefined') {
       return this[key];
     }
-    this[key] = `${this.namespace}-${key}-${uuidGenerator()}`;
+    this[key] = `${this.namespace}-${key}-${randomBase64()}`;
     return this[key];
   }
 }

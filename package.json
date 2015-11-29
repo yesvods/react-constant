@@ -1,6 +1,6 @@
 {
   "name": "react-constant",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Fuck off constants.js and golobal constants in react/flux/redux/wateva.",
   "main": "lib/index.js",
   "files": [
@@ -11,8 +11,10 @@
   "scripts": {
     "clean": "rimraf lib dist coverage",
     "lint": "eslint src test examples",
-    "test": "mocha --compilers js:babel-core/register --recursive",
-    "test:watch": "npm test -- --watch",
+    "test":"karma start --single-run",
+    "test-node": "mocha --compilers js:babel-core/register --recursive",
+    "test:watch": "karma start karma.conf.js --auto-watch",
+    "test-node:watch": "mocha --compilers js:babel-core/register --recursive --watch",
     "check": "npm run lint && npm run test",
     "build:lib": "babel src --out-dir lib",
     "build:umd": "webpack src/index.js dist/constant.js --config webpack.config.development.js",
@@ -45,9 +47,15 @@
     "babel-preset-stage-0": "^6.1.18",
     "eslint": "^1.10.1",
     "eslint-config-rackt": "^1.1.1",
+    "karma": "^0.13.15",
+    "karma-mocha": "^0.2.1",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-phantomjs-shim": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.5",
+    "karma-webpack": "^1.7.0",
     "mocha": "^2.3.4",
+    "phantomjs": "^1.9.19",
     "rimraf": "^2.4.4",
-    "should": "^7.1.1",
-    "webpack": "^1.12.8"
+    "should": "^7.1.1"
   }
 }
