@@ -1,5 +1,5 @@
 # react-constant
-Fuck off constants.js and globalconstants in react/flux/redux/wateva.
+Fuck off constants.js and global constants in react/flux/redux/wateva.
 
 ## Feature
 * Drop all of your files about constants, react-constant will take care for you.
