@@ -8,6 +8,7 @@ Fuck off constants.js and global constants in react/flux/redux/wateva.
 
 [![build status](https://api.travis-ci.org/yesvods/react-constant.svg?branch=master)](https://travis-ci.org/yesvods/react-constant)
 [![npm version](https://img.shields.io/npm/v/react-constant.svg?style=flat-square)](https://www.npmjs.com/package/react-constant)
+[![Coverage Status](https://coveralls.io/repos/yesvods/react-constant/badge.svg?branch=master&service=github)](https://coveralls.io/github/yesvods/react-constant?branch=master)
 
 ## Usage
 
