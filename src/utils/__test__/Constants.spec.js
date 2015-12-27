@@ -1,4 +1,4 @@
-import Constants from '../../src/utils/Constants';
+import Constants from '../Constants';
 import should from 'should';
 
 describe('Constants', () => {

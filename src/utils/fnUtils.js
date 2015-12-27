@@ -5,12 +5,14 @@
  *  and end index
  * @return {String}        encoded string
  */
+import uuid from 'node-uuid';
+
 export function randomBase64(...arg){
   let start = typeof arg[0] === 'number'?arg[0]:-5;
   let end = typeof arg[1] === 'number'?arg[1]:undefined;
   let codedString ;
   if('object' === typeof process && Object.prototype.toString.call(process) === '[object process]'){
-    codedString = new Buffer(`${Math.random()}`.slice(2))
+    codedString = new Buffer(`${uuid.v4()}`.slice(2))
                       .toString('base64')
                       .replace(/\=/g,'')
                       .slice(start, end);

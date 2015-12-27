@@ -1,4 +1,4 @@
-import {Constant} from '../src/index';
+import {Constant} from '../index';
 import should from 'should';
 describe('Constant', () => {
   let constants1, constants2;

@@ -12,11 +12,11 @@ module.exports = function (config) {
     reporters: [ 'dots' ],
 
     files: [
-      "test/**/*.js"
+      "src/**/__test__/*.js"
     ],
 
     preprocessors: {
-      'test/**/*.js': [ 'webpack', 'sourcemap' ]
+      'src/**/__test__/*.js': [ 'webpack', 'sourcemap' ]
     },
 
     webpack: devConfig,

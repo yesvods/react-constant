@@ -1,4 +1,4 @@
-import constantsHub from '../../src/utils/constantHub';
+import constantsHub from '../constantHub';
 import should from 'should';
 
 describe('constantsHub', () => {

@@ -1,4 +1,4 @@
-import {randomBase64} from '../../src/utils/fnUtils';
+import {randomBase64} from '../fnUtils';
 import should from 'should';
 
 describe('fnUtils', () => {
