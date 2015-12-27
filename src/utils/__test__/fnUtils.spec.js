@@ -4,7 +4,7 @@ import should from 'should';
 describe('fnUtils', () => {
   it('get different value in every invoke', () => {
     let tmp = [];
-    const base64Encoded = randomBase64();
+    const base64Encoded = randomBase64(0, 20);
     for(let i=0; i<1000;i++){
       tmp.push(randomBase64())
     }
@@ -25,5 +25,10 @@ describe('fnUtils', () => {
   it('should return no more than 20 chars', () => {
     const base64Encoded = randomBase64(0);
     should(base64Encoded.length).belowOrEqual(20);
+  })
+  it('should return correct string in browser', () => {
+    delete global.bota
+    const base64Encoded = randomBase64(0);
+    should(typeof base64Encoded).equal('string');
   })
 })
