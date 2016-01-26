@@ -1,6 +1,6 @@
 {
   "name": "react-constant",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Fuck off constants.js and golobal constants in react/flux/redux/wateva.",
   "main": "lib/index.js",
   "files": [
@@ -47,6 +47,7 @@
     "babel-eslint": "^4.1.5",
     "babel-istanbul": "^0.5.9",
     "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
     "babel-preset-es2015": "^6.1.18",
     "babel-preset-stage-0": "^6.1.18",
     "coveralls": "^2.11.6",
