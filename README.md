@@ -22,12 +22,12 @@ npm install react-constant --save
 
 ```Javascript
 //ES5 version
-var Constant = require('react-constant').Constant;
+var Contant = require('react-constant');
 var constants = Constant('mynamespace');
 
 //ES6 version
-import { Constant } from 'react-constant';
-let constants = Constant('mynamespace');
+import Constant from 'react-constant';
+const constants = Constant('mynamespace');
 
 ```
 
