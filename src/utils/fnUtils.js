@@ -5,7 +5,7 @@
  *  and end index
  * @return {String}        encoded string
  */
-import uuid from 'node-uuid';
+import uuid from 'uuid';
 
 export function randomBase64(...arg){
   let start = typeof arg[0] === 'number'?arg[0]:-5;
